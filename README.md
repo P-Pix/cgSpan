@@ -29,7 +29,8 @@ from cgSpan.src.cgSpan import cgSpan
 
 # retourne liste des sous graphes fréquents fermés avec leurs fréquence de parrution
 
-graphes = cgSpan(liste_graphes)
+freq_min = 0.2
+graphes = cgSpan(liste_graphes, freq_min)
 ```
 
 ## Citation
